@@ -39,6 +39,11 @@ Mac de los Host:
 * H5: 00:00:00:00:00:05
 * H6: 00:00:00:00:00:06
 
+Switches
+* S1 = Switch X
+* S2 = Switch Y
+* S3 = Switch Z
+
 ### Parte 1
 
 1. Abrir dos consolas dentro de la carpeta mininet.
@@ -176,6 +181,15 @@ Mac de los Host:
 * H5: 00:00:00:00:00:05
 * H6: 00:00:00:00:00:06
 * H7: 00:00:00:00:00:07
+
+Switches
+* S1 = Switch T
+* S2 = Switch U
+* S3 = Switch V
+* S4 = Switch W
+* S5 = Switch X
+* S6 = Switch Y
+* S7 = Switch Z
 
 ### Comandos
 
