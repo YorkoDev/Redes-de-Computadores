@@ -18,7 +18,7 @@
 
 4. La idea es que la carpeta de pox se encuentre adentro de la carpeta de mininet
 
-5. Poner el archivo de la topologia en la misma topos.py al mismo nivel de la carpeta mininet
+5. Poner el archivo de la topologia (topos.py) dentro de la carpeta mininet
 
 6. Poner los achivos que estan en la carpeta controladores dentro de la carpeta pox/pox/forwarding, para el correcto funcionamiento de la tarea
 
@@ -26,7 +26,18 @@
 
 ### Topología
 
-<img src="https://cdn.discordapp.com/attachments/318895169866825739/742158374895878305/unknown.png">
+![https://cdn.discordapp.com/attachments/318895169866825739/742287759800008744/unknown.png](https://cdn.discordapp.com/attachments/318895169866825739/742287759800008744/unknown.png)
+
+Los numeros en rojo son los puertos.
+
+Mac de los Host:
+
+* H1: 00:00:00:00:00:01
+* H2: 00:00:00:00:00:02
+* H3: 00:00:00:00:00:03
+* H4: 00:00:00:00:00:04
+* H5: 00:00:00:00:00:05
+* H6: 00:00:00:00:00:06
 
 ### Parte 1
 
@@ -62,7 +73,7 @@ mininet> pingall
 mininet> pingall
 ```
 
-7. Respondiendo a la pregunta, podemos ver que en el primer intento falla pero es porque le sirve como reconocimiento, ya que a partir del segundo funciona de pana:
+7. Respondiendo a la pregunta, al momento de realizar esos dos comandos, sucede  que los host C y D (h3 y h4) quedaron completamente incomplementamente comunicados del exterior. O sea que h3 y h4 quedaron sin ningún tipo de comunicación con el host A, B, E y F (1, 2, 5, 6)
 
 ### Parte 2
 
@@ -152,7 +163,19 @@ mininet> h3 ping h5
 
 ### Topología
 
-<img src="https://cdn.discordapp.com/attachments/318895169866825739/742127103855689903/unknown.png">
+![https://media.discordapp.net/attachments/318895169866825739/742289566874206269/unknown.png?width=770&height=430](https://media.discordapp.net/attachments/318895169866825739/742289566874206269/unknown.png?width=770&height=430)
+
+Los numeros en rojo son los puertos.
+
+Mac de los Host:
+
+* H1: 00:00:00:00:00:01
+* H2: 00:00:00:00:00:02
+* H3: 00:00:00:00:00:03
+* H4: 00:00:00:00:00:04
+* H5: 00:00:00:00:00:05
+* H6: 00:00:00:00:00:06
+* H7: 00:00:00:00:00:07
 
 ### Comandos
 
