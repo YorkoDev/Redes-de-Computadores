@@ -1,5 +1,12 @@
 # Redes-de-Computadores
 
+## Integrantes
+
+| Nombres         | ROL           |
+|:-------------:|:-------------:|
+| Gabriel Carmona | 201773509-0   |
+| Jorge Luduena   | 201773509-0   |
+
 ## Prerequisitos
 
 1. Tener python2.7 instalado
