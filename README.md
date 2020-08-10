@@ -4,7 +4,7 @@
 
 1. Tener python2.7 instalado
 
-2. Descargar mininet
+2. Descargar mininet en la branch 2.2.2 2.2.2
 
 ```
 > git clone git://github.com/mininet/mininet
@@ -18,9 +18,9 @@
 
 4. La idea es que la carpeta de pox se encuentre adentro de la carpeta de mininet
 
-5. Poner el archivo de la topologia en la misma topos.py dentro de la carpeta mininet
+5. Poner el archivo de la topologia en la misma topos.py al mismo nivel de la carpeta mininet
 
-6. Poner los achivos que estan en la carpeta controladores dentro de la carpeta pox/pox/forwarding, apra el correcto funcionamiento de la tarea
+6. Poner los achivos que estan en la carpeta controladores dentro de la carpeta pox/pox/forwarding, para el correcto funcionamiento de la tarea
 
 ## Red 1
 
