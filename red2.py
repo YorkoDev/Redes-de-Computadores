@@ -178,13 +178,17 @@ class LearningSwitch (object):
       
       #print("AAAAAAAAAAAAA",packet.find("icmp"))
       papope = packet.find("tcp")
-      if packet.find("icmp") == None:
-        if papope != None: 
-          if "HTTP" not in papope.payload and not(papope.SYN) and not(papope.ACK):
-            print("Mensaje no es ni ping ni HTTP")
+      print(packet)
+      if papope != None: 
+        if packet.find("arp") == None:
+          if"HTTP" not in papope.payload and not(papope.SYN) and not(papope.ACK):
+            print("Mensaje no es HTTP request")
             drop()
             return
-       
+      elif packet.find("arp") == None:
+        print("Mensaje no es HTTP request")
+        drop()
+        return  
 
       
       msg = of.ofp_flow_mod()
