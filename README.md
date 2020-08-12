@@ -5,7 +5,7 @@
 | Nombres         | ROL           |
 |:-------------:|:-------------:|
 | Gabriel Carmona | 201773509-0   |
-| Jorge Luduena   | 201773509-0   |
+| Jorge Luduena   | 201773507-4   |
 
 ## Prerequisitos
 
